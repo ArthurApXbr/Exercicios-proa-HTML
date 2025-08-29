@@ -1,0 +1,70 @@
+#fundo{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-color: rgb(132, 180, 235);
+    margin: auto;
+}
+
+#topo{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    background-color: teal;
+    width: 100%;
+    height: 130px;
+    float: left;
+}
+
+#le{
+    position: relative;
+    background-color: rgb(132, 180, 235);
+    width: 10%;
+    height: 480px;
+    float: left;
+    font-size: 15px;
+}
+
+#conteudo{
+    position: relative;
+    background-color: silver;
+    width: 70%;
+    height: 480px;
+    float: left;
+}
+
+#rodape{
+    position: relative;
+    float: left;
+    background-color: rgb(0, 132, 255);
+    height: 40px;
+    width: 100%;
+}
+
+#caixa1{
+    position: absolute;
+    background-color: white;
+    height: 130px;
+    width: 263px;
+    top: 270px;
+    left: 1105px;
+}
+
+#caixa2{
+    position: absolute;
+    background-color: white;
+    height: 130px;
+    width: 263px;
+    top: 135px;
+    left: 1105px;
+}
+
+#imagem{
+    position: absolute;
+    left: 950px;
+    top: 450px;
+}
