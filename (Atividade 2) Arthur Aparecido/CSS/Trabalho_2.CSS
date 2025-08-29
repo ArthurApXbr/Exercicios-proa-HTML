@@ -1,0 +1,55 @@
+#camada1{
+        position: absolute; /* elemento sobreposto */
+        left: 250px; /*distancia da esquerda*/
+        top: 10px; /*distancia do topo*/
+        width: 200px; /*largura da camada*/
+        height: 120px; /*altura da camada*/
+        background-color: blue; /*cor do fundo*/
+        text-align: center; /*alinhar texto no centro*/
+        font-size: 15px; /*tamanho da fonte*/
+        }
+
+#camada2{
+        position: absolute; /* elemento sobreposto */
+        left: 450px; /*distancia da esquerda*/
+        top: 10px; /*distancia do topo*/
+        width: 850px; /*largura da camada*/
+        height: 120px; /*altura da camada*/
+        background-color: red; /*cor do fundo*/
+        text-align: center; /*alinhar texto no centro*/
+        font-size: 15px; /*tamanho da fonte*/
+        }
+
+#camada3{
+        position: absolute; /* elemento sobreposto */
+        left: 250px; /*distancia da esquerda*/
+        top: 130px; /*distancia do topo*/
+        width: 1050px; /*largura da camada*/
+        height: 50px; /*altura da camada*/
+        background-color: lime; /*cor do fundo*/
+        text-align: center; /*alinhar texto no centro*/
+        font-size: 15px; /*tamanho da fonte*/
+        }
+
+#camada4{
+        position: absolute; /* elemento sobreposto */
+        left: 250px; /*distancia da esquerda*/
+        top: 180px; /*distancia do topo*/
+        width: 1031px; /*largura da camada*/
+        height: 420px; /*altura da camada*/
+        background-color: yellow; /*cor do fundo*/
+        border: 10px solid red; /*borda da camada*/
+        text-align: center; /*alinhar texto no centro*/
+        font-size: 15px; /*tamanho da fonte*/
+        }
+
+#camada5{
+        position: absolute; /* elemento sobreposto */
+        left: 250px; /*distancia da esquerda*/
+        top: 619px; /*distancia do topo*/
+        width: 1050px; /*largura da camada*/
+        height: 50px; /*altura da camada*/
+        background-color: silver; /*cor do fundo*/
+        text-align: center; /*alinhar texto no centro*/
+        font-size: 15px; /*tamanho da fonte*/
+        }
