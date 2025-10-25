@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26, 26, 26);
+    height: 60px;
+    padding: 0 20px;
+}
+
+.direita img {
+    height: 60px;
+    margin-right: 15px;
+}
+
+.meio {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio input {
+    width: 500px;
+    height: 40px;
+    border-radius: 50px 0 0 50px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding-left: 15px;
+}
+
+.meio img {
+    height: 25px;
+    margin-left: 5px;
+}
+
+.esquerda img {
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.conteudo {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.lado {
+    width: 5%;
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.opcoes {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.lado img {
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.principal {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categorias {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    background-color: rgb(26, 26, 26);
+}
+
+.categoria, .categoria2 {
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+.categoria {
+    background-color: white;
+    color: black;
+}
+
+.categoria2 {
+    background-color: rgb(57, 57, 57);
+    color: white;
+}
+
+.videos {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: flex-start;
+    background-color: #121212;
+}
+
+.video {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.video img {
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+}
+
+.video p {
+    color: white;
+    font-size: 14px;
+}
