@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(26, 26, 26);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.direita img{
+    height: 60px;
+    margin-right: 15px;
+}
+
+.meio{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px 0 0 50px;
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+.meio img{
+    height: 25px;
+}
+
+.esquerda img{
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+
+.conteudo {
+    display: flex;           /* Coloca .lado e .categorias lado a lado */
+    width: 100%;
+    height: 100vh;           /* Ocupa a altura da tela */
+}
+
+.lado{
+    background-color: rgb(26, 26, 26);
+    display: flex;
+    height: 940px;
+    width: 5%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.opcoes{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.lado img{
+    height: 50px;
+    margin-bottom: 1px;
+}
+
+.categorias{
+    background-color: rgb(26, 26, 26);
+    flex: 1;               /* Ocupa o resto do espaço */
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.categoria{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.categoria2{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.videos{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}
