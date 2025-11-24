@@ -4,8 +4,7 @@
 }
 
 body {
-    background-color: #181616;
-    font-family: verdana;
+    background-color: rgb(197, 219, 242);
 }
 header {
     position: relative;
@@ -20,7 +19,7 @@ header {
     display: flex;
     gap: 50px;
     margin-left: 20px;
-    color: #3d3d3d
+    color: #3d3d3d;
 }
 
 .logo {
@@ -35,15 +34,137 @@ header {
 .login{
     display: flex;
     margin-right: 20px;
+    gap: 20px;
+    font-size: 14px;
 }
 
-.botao_conectar {
-    background-color: silver;
-    border: silver;
+.botao_conectar{
+    padding: 15px;
+    border: 1px solid #a5a5a5;
+}
+
+.botao_cadastrar{
+    padding: 15px;
+    background-color: #0b615e;
     color: white;
-    padding: 10px 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+.lado_esquerdo {
+    display: flex;
+    margin: 200px;
+    margin-top: 350px;
+    /* background-color: white; */
+    height: 400px;
+    width: 650px;
+    flex-direction: column;
+}
+
+.lado_esquerdo h1 {
+    font-size: 40px;
+    color: #474645;
+    font-size: 70px;
+    font-family: Georgia, serif;
+}
+
+.lado_esquerdo p {
+    font-size: 30px;
+    color: #7e7c79;
+    margin-top: 20px;
+}
+
+.lado_esquerdo button {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #0b615e;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 200px;
+}
+
+.lado_direito {
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    /* background-color: rgb(226, 11, 11); */
+    height: 400px;
+    width: 800px;
+}
+
+.quadrado_rosa {
+    background-color: #f7d5c5;
+    height: 350px;
+    width: 500px;
+    border: black 2px solid;
+    border-radius: 20px
+}
+
+.quadrado_rosa .Menu {
+    margin: 10px;
+    height: 20px;
+    width: 30px;
+}
+
+.quadrado_rosa .Carrinho {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    float: right;
+}
+
+.quadrado_rosa p {
+    color: coral;
     text-align: center;
-    text-decoration: none;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quadrado_rosa .Anuncio {
+    margin: 30px;
+    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+}
+
+.quadrado_branco {
+    position: absolute;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    border: black 2px solid;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.cart {
+    display: flex;
+    background-color: silver;
+    border-radius: 20px 20px 0px 0px;
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    font-size: 20px;
+    border-bottom: black 2px solid;
+}
+
+.produto {
+    height: 170px;
+}
+
+.quadrado_branco button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #0b615e;
+    color: white;
+    border: none;
     font-size: 15px;
-    margin-right: 20px;
+    width: 200px;
 }
